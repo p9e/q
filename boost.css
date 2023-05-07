@@ -1,28 +1,39 @@
 ::selection {
-  text-shadow: 0 -1ex 0 hotpink;
-  background: hotpink;
-  color: black;
+  text-shadow: none;
+  background: #ed3;
+  color: indigo;
 }
 
 :root {
-  color: #111;
-  background-color: skyblue;
-  background-image: linear-gradient(.2turn, powderblue 0%, powderblue 12%, deepskyblue 12%);
+  color: papayawhip;
+  background-color: darkviolet;
+  background-image: conic-gradient(darkviolet, indigo, blueviolet, darkviolet);
 }
 
 :any-link {
-  color: #111;
+  color: papayawhip;
 }
 
 :focus {
-  outline: thick groove;
-  text-shadow:
-    0 -1vmax 0 coral,
-    0 -1vmin 0 coral;
+  text-decoration-style: dotted;
+  outline: thick dotted;
+}
+
+:hover {
+  text-decoration-style: double;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   :any-link {
     transition: text-shadow 300ms ease-out;
   }
+}
+
+b {
+  text-shadow:
+    0 -8vh 1em midnightblue,
+    0 -5vh 0 darkslateblue,
+    0 -3vh 0 indigo,
+    0 -2vh 0 purple,
+    0 -1vh 0 deepskyblue;
 }

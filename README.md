@@ -1,3 +1,5 @@
-## [*boost* mural](https://webmural.com/boost)
+## [`Q`](index.html)
 
-[opensource](UNLICENSE.txt) [skywave](https://webmural.com/kara) [template](../../generate)
+```
+360º ÷ 5
+```
